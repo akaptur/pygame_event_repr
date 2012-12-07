@@ -6,7 +6,7 @@ class Parent(object):
         pass
 
     def __repr__(self):
-        Thingsuperclass = str(self.__class__.__bases__[0].__name__)
+        Thingsuperclass = str(self.__class__.__base__.__name__)
         Thingclass = str(self.__class__.__name__)
         Thingattrs = str(self.__dict__)
         return '<'+Thingsuperclass+'('+Thingclass+' '+Thingattrs+')>'
