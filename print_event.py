@@ -23,14 +23,11 @@ class Number(Parent):
         print "Created simple object with number", self.num
 
 
-num = Number()
-let = Letter()
-p = Parent()
-
-
-
-
 if __name__ == '__main__':
+    num = Number()
+    let = Letter()
+    p = Parent()
+
     print num
     print let
     print p
